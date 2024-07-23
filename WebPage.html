@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body >
+    <div class="parent">
+        <header>
+            <h1 align="center"><u style="color: #FF0008 ;">Gopalakrishnan Web Project</u></h1>
+            <hr>
+            <p id="datetime"></p>
+            
+            <script>
+                 // Get current date and time
+                 var now = new Date();
+                var datetime = now.toLocaleString();
+
+                // Insert date and time into HTML
+                document.getElementById("datetime").innerHTML = datetime;
+            </script>
+           
+        </header>
+        <div id="title">
+            <div style="width: 30%;">
+                <h1><u style="color: #FF0008 ;">HTML Project</u></h1>
+            </div>
+            <div style="width: 15%; margin-left: 85%; margin-top: -4%;">
+                <input type="text" placeholder="Enter Your Name">
+                <p><a href="https://www.tesla.com/" target="_blank">Nikola Tesla</a></p>
+                <p><a href="https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/"
+                        target="_blank">Albert Einstein</a></p>
+                <p><a href="https://www.britannica.com/biography/Isaac-Newton" target="_blank">Isaac Newton</a></p>
+                <p><a href="https://www.britannica.com/biography/Robert-Boyle" target="_blank">Robert Boyle</a></p>
+            </div>
+        </div>
+        <div id="content">
+            <div style="height: 60px;"></div>
+            <div>
+                <h2><u style="color: #000798 ;">Project content</u></h2>
+            </div>
+            <h3 style="color: #6944BD;">Ancient Roots:</h3>
+            <p>Science’s earliest roots can be traced back to Ancient Egypt and Mesopotamia around 3000 to 1200 BCE.
+                These civilizations made significant contributions to mathematics, astronomy, and medicine, which later
+                influenced Greek natural philosophy.
+                Greek philosophers attempted to explain natural events based on natural causes.</p>
+            <h3 style="color: #6944BD;">Middle Ages and Renaissance:</h3>
+            <p>After the fall of the Western Roman Empire, knowledge of Greek science declined in Latin-speaking Western
+                Europe.
+                However, Greek works were preserved and absorbed in the Byzantine Empire and the Arabic-speaking Muslim
+                world.
+                Translations of Greek texts reintroduced natural philosophy to Western Europe.</p>
+            <h3 style="color: #6944BD;">Scientific Revolution:</h3>
+            <p>The 16th-17th centuries marked the Scientific Revolution.
+                New ideas and discoveries departed from previous Greek conceptions.
+                The emergence of a more mechanistic worldview, integration with mathematics, and a defined scientific
+                method transformed natural philosophy into modern science.</p>
+            <h3 style="color: #6944BD;">Subsequent Revolutions:</h3>
+            <p>The 18th-century chemical revolution introduced quantitative methods for chemistry.
+                The 19th century saw perspectives on energy conservation, Earth’s age, and evolution come into focus1.
+                In summary, the history of science reflects humanity’s journey from observing natural phenomena to
+                achieving modern scientific understanding. If you’d like to explore specific scientists or scientific
+                breakthroughs, feel free to ask! </p>
+            <div style="height: 60px;"></div>
+            <h2><u style="color: #2C4637 ;">Old science</u></h2>
+            <img src="Time.jpg" alt="Watch" width="400" height="350">
+            <img src="reactor.jpeg" alt="Nuclear" width="400" height="350">
+            <img src="Teslaproj.webp" alt="Tesla Tower" width="400" height="350">
+            <img src="Tesla.webp" alt="Nikola Tesla" width="400" height="350">
+
+
+        </div>
+    </div>
+    <style>
+        a:hover {
+            background-color: aqua;
+        }
+
+        .parent {
+            width: 100%;
+            height: 100%;
+            background-image: url("https://media.licdn.com/dms/image/sync/D4E27AQEeNxFnKeIS0w/articleshare-shrink_800/0/1711706500245?e=2147483647&v=beta&t=LdLu6alCI5_0pQQVUZcarvqzPH068y-yo4kMJQSCfwM");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 5px;
+        
+        }
+        body{
+            overflow-x: hidden;
+        }
+    </style>
+</body>
+
+</html>
